@@ -1,0 +1,16 @@
+manifest:
+  projects:
+    - name: zephyr
+      url: http://10.10.20.8:8000/sw/zephyr.git
+      revision: 2af9ac043147cf67e981dc2b50366b5e49195ed1
+      import: false
+
+    - name: LS_SDK
+      url: http://10.10.20.8:8000/sw/ls_sdk.git
+      revision: c5d91e78c0a6668edf7f65c3fb4b5db9be1975fd
+      path: modules/hal/linkedsemi
+      groups:
+        - hal
+
+  self:
+    path: c908_boot
