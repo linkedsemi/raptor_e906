@@ -2,7 +2,7 @@ manifest:
   projects:
     - name: zephyr
       url: http://10.10.20.8:8000/sw/zephyr.git
-      revision: 2af9ac043147cf67e981dc2b50366b5e49195ed1
+      revision: 3dd9f800892a14eb2ae9f63b38cd2a413d80e134
       import: false
       west-commands: scripts/west-commands.yml
 
