@@ -4,6 +4,7 @@ manifest:
       url: http://10.10.20.8:8000/sw/zephyr.git
       revision: 2af9ac043147cf67e981dc2b50366b5e49195ed1
       import: false
+      west-commands: scripts/west-commands.yml
 
     - name: LS_SDK
       url: http://10.10.20.8:8000/sw/ls_sdk.git
